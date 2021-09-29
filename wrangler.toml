@@ -1,10 +1,11 @@
 name = "esbuild-workers-template"
 type = "javascript"
-account_id = ''
+account_id = '86a84644d326237c5f803d946c986826'
 workers_dev = true
 
 [build]
-command = "npm install && npm run build"
+# command = "npm install && npm run build"
+command = "pnpm run build"
 [build.upload]
 format = "modules"
 main = "./index.mjs"
